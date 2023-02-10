@@ -1,0 +1,77 @@
+// import java.util.Scanner;
+// import java.util.ArrayList;
+// import java.util.List;
+
+// public class PeopleList {
+
+//     static List<People> peopleList = new ArrayList<People>();
+
+//     public static void main(String[] args) {
+
+//         int selection = 0;
+        
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("1) Enter information");
+//         sc.nextLine();
+
+//         switch (selection) {
+//             case 1:
+//                 People enterInfoPeople = enterInfo(sc);
+//                 enterInfo(selection, sc, enterInfoPeople);
+//             break;
+
+
+//         }
+
+//     }
+
+//     public static People enterInfo(Scanner sc) {
+//         System.out.println("Please enter your first name");
+//         String firstName = sc.nextLine();
+//         System.out.println("Please enter your last name");
+//         String lastName = sc.nextLine();
+//         System.out.println("Enter your phone number");
+//         String phoneNumber = sc.nextLine();
+
+//         People people = new People(firstName, lastName, phoneNumber);
+
+//         peopleList.add(people);
+//         return people;
+
+//     }
+
+//     System.out.println("1) Enter first name");
+//     String userFirstName = sc.nextLine();
+
+//     ArrayList<String> newArr = new ArrayList<String>();
+//     StringBuffer sb = new StringBuffer(userFirstName);
+
+
+//     for (String s : newArr) {
+//         sb.append(s);
+        
+//     }
+//     String str = sb.toString();
+//     System.out.println(userFirstName + peopleList.size());
+// }
+
+
+
+
+// for (int i = 0; i < peopleList.size(); i++) {
+//     for (int j = 0; j < addressList.size(); j++) {
+//         if (userInput == peopleList.get(i).getFirstName() ||
+//                 userInput == peopleList.get(i).getLastName() ||
+//                 userInput == peopleList.get(i).getPhoneNumber() ||
+//                 userInput == addressList.get(j).getCity() ||
+//                 userInput == addressList.get(j).getState()) {
+//             bool = false;
+//             break;
+
+//         }
+//     }
+
+//     System.out.println(peopleList.get(i));
+
+//     if (bool) {
+//         System.out.println("Entry not found");

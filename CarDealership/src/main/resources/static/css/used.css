@@ -1,0 +1,58 @@
+.main-text {
+    font-size: xx-large;
+    justify-content: center;
+    align-items: center;
+}
+
+.bmw-img {
+    height: 100px;
+    width: 100px;
+    margin: 4%;
+    justify-content: center;
+    margin: 3%;
+    margin-left: 8.5%;
+}
+
+.bmw-text {
+    justify-content: center;
+    width: 100px;
+    color: black;
+    font-size: 20px;
+}
+
+.box {
+    border: 1px solid black;
+    height: 475px;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.car-img {
+    height: 71%;
+    width: 100%;
+    padding-bottom: 13%;
+}
+
+.car-details {
+    padding-bottom: 4%;
+    text-align: center;
+}
+
+.buy {
+background: rgb(149, 143, 143);
+  color: rgb(5, 5, 5);
+  border: none;
+  padding: 2px;
+  font: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: inherit;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px #000;
+  text-decoration: none;
+}
+
+
+

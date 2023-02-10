@@ -1,0 +1,17 @@
+.main-text {
+    font-size: xx-large;
+}
+
+.bmw-img {
+    height: 100px;
+    width: 100px;
+    margin: 4%;
+    justify-content: center;
+}
+
+.bmw-text {
+    justify-content: center;
+    width: 100px;
+    color: black;
+    font-size: 20px;
+}
