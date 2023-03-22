@@ -239,10 +239,8 @@ public class PropertyController {
     }
 
     @RequestMapping(
-        value = "/delete/{propertyId}",
-        consumes = MediaType.APPLICATION_JSON_VALUE, 
-        produces = MediaType.APPLICATION_JSON_VALUE, 
-        method = RequestMethod.POST
+        value = "/delete/{propertyId}", 
+        method = RequestMethod.DELETE
     )
     public ResponseEntity<Object> deletePropertyById(@PathVariable Integer propertyId) {
 
